@@ -1,0 +1,154 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/trans1234.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.the-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.the-logo img{
+    width: 500px;
+}
+
+#gap {
+    display: none;
+}
+
+.btns a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, rgb(2, 0, 128), rgb(4, 205, 219));
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 8px 100px;
+    transition: 0.4s;
+}
+
+.btns a:hover {
+    background: linear-gradient(to right, rgb(8, 4, 255), rgb(0, 238, 255));
+    font-weight: 700;
+}
+
+.btns center{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 350px;
+}
+
+
+
+.body-text p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin:0 0 100px 0;
+    font-size: 18px;
+}
+
+.body-text {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .btns a {
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(to right, rgb(2, 0, 128), rgb(4, 205, 219));
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        border-radius: 10px;
+        font-weight: 500;
+        padding: 8px 100px;
+        transition: 0.4s;
+    }
+
+    .btns center{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 240px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .the-logo img{
+        width: 40vw;
+        padding: 30px 0;
+    }
+    .btns center{
+        margin: 0 140px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .btns center{
+        margin: 0 170px;
+    }
+    .btns a {
+        padding: 8px 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .btns center{
+        margin: 0 90px;
+    }
+    .btns a{
+        font-size: 2.4vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .body-text {
+        width: 74vw;
+        margin: 0 auto;
+    }
+    
+    #gap {
+        display: block;
+    }
+
+    .the-logo img{
+        width: 60vw;
+        padding: 30px 0;
+    }
+    .btns a {
+        font-size: 4vw;
+        border-radius: 10px;
+        font-weight: 500;
+        padding: 8px 80px;
+        transition: 0.4s;
+    }
+
+    .btns center{
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        margin: 0 0px;
+    }
+
+}
+
+

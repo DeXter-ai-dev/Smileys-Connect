@@ -92,6 +92,20 @@ a {text-decoration: none;}
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .buttons a .fa-book-bookmark {
     font-size: 32px;
     color: #0196aa;
@@ -215,5 +229,20 @@ a {text-decoration: none;}
     .buttons a .fa-house-user {
         font-size: 17px;
         color: white;
+    }
+    
+    .links.open-menu {
+        animation: dropdown 1s ease-in-out;
+    }
+    
+    @keyframes dropdown {
+        0%{
+            transform: translateY(-800px);
+            opacity: 1;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
     }
 }

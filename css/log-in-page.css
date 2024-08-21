@@ -1,0 +1,80 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/ded113182adf70887c6c8ac7adcdc0b7.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+
+.the-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.the-logo img{
+    width: 400px;
+}
+
+.login {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 30px 0;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 5px  7px 20px 4px rgba(0, 0, 0, 0.397); 
+}
+
+.login input {
+    background-color: #ffffff;
+    display: block;
+    width: 400px;
+    height: 40px;
+    border-radius: 17px;
+    margin: 10px 0;
+    box-shadow: 5px  6px 7px 1px #6ca7ce75; 
+}
+
+#btn {
+    margin-top: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 10px 70px;
+    border-radius: 17px;
+    background: linear-gradient(to right, rgb(2, 0, 128), rgb(4, 205, 219));
+    color: white;
+    transition: 0.7s;
+}
+
+#btn:hover {
+    border: 2px solid #0377b5;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white, white, white);
+    color: rgb(87, 85, 85);
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .the-logo img{
+        width: 60vw;
+        padding: 30px 0;
+    }
+    .login {
+        width: 90vw;
+    }
+    .login input {
+        width: 74vw;
+        height: 36px;
+    }
+}
+
+
