@@ -5,10 +5,12 @@ a {text-decoration: none;}
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/trans1234.jpg);
+    background-image: url(images/d820e2636e907e80304c506512a4d6f8.jpg);
     background-position: center;
     background-size:cover ;
 }
+
+
 
 .the-logo {
     display: flex;
@@ -16,7 +18,7 @@ body {
 }
 
 .the-logo img{
-    width: 500px;
+    width: 700px;
 }
 
 #gap {
@@ -49,11 +51,12 @@ body {
 
 
 
-.body-text p{
+.body-text h1{
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin:0 0 100px 0;
-    font-size: 18px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
 }
 
 .body-text {
@@ -117,7 +120,7 @@ body {
     body {
         min-height: 100vh;
         width: 100%;
-        background-position: center;
+        background-position: right;
         background-size: cover;
     }
 
@@ -131,7 +134,7 @@ body {
     }
 
     .the-logo img{
-        width: 60vw;
+        width: 90vw;
         padding: 30px 0;
     }
     .btns a {

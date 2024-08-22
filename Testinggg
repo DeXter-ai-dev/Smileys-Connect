@@ -1,0 +1,19 @@
+    <section class="the-logo">
+        <a href="index.html"><img src="Images/smileys-logo-big.png" alt="smileys-logo"></a>
+    </section>
+
+    <section class="body-text">
+        <p> Welcome To Smileys.<br>
+            Smileys is a safe space for people living with Sickle cell anaemia to freely communicate with others like them and learn more about their health. Why the name "Smileys" ? If you've noticed, when you lay the sickle cell flat it looks more like a smile than a sickle. At Smileys we are raising awareness and changing the narrative of sickle cell anaemia. Join us.
+            <br>
+            <b><a href="https://bit.ly/DEXTR">Powered by Dexterity</a></b>
+        </p>
+    </section>
+
+    <section class="btns">
+        <center>
+            <a href="log-in-page.html">Log &nbsp In</a>
+            <span id="gap"><br><br><br></span>
+            <a href="log-in-page.html">Sign up</a>
+        </center>    
+    </section>

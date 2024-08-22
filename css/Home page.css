@@ -20,6 +20,7 @@ a {text-decoration: none;}
     display: none;
     background: linear-gradient(to right, rgb(4, 205, 219), rgb(2, 0, 128));
     padding-bottom: 40px;
+    height: 80vh;
 }
 
 .links.open-menu {
